@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/May/2023:18:29:40 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/May/2023:18:29:40 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/May/2023:18:29:40 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/May/2023:18:29:41 -0500] "GET /manager/text/ HTTP/1.1" 401 2562
+127.0.0.1 - admin [06/May/2023:18:30:13 -0500] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - - [06/May/2023:18:30:13 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [06/May/2023:18:30:14 -0500] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - - [06/May/2023:18:30:14 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [06/May/2023:18:30:14 -0500] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - - [06/May/2023:18:30:14 -0500] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [06/May/2023:18:30:14 -0500] "GET /manager/text/ HTTP/1.1" 200 44
+127.0.0.1 - admin [06/May/2023:18:30:14 -0500] "GET /manager/text/list HTTP/1.1" 200 309
+127.0.0.1 - admin [06/May/2023:18:30:14 -0500] "GET /manager/text/list HTTP/1.1" 200 309
+0:0:0:0:0:0:0:1 - - [06/May/2023:18:30:17 -0500] "GET /SistemasVentasWeb HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [06/May/2023:18:30:19 -0500] "GET /SistemasVentasWeb/ HTTP/1.1" 200 2117
+0:0:0:0:0:0:0:1 - - [06/May/2023:18:30:21 -0500] "GET /SistemasVentasWeb/img/ventas.jpg HTTP/1.1" 404 727
