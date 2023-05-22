@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
         <title>JSP Page</title>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">          
+    <body class="bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">          
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="#">Home</a>
+                        <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="#">Principal</a>
                     </li>
                     <li class="nav-item">
                         <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="Controlador?menu=Producto&accion=Listar" target="myFrame">Producto</a>
@@ -47,7 +47,7 @@
             </div>
         </nav>            
         <div class="m-4" style="height: 550px;">
-            <iframe name="myFrame" style="height: 100%; width: 100%; border: none"></iframe>
+            <iframe  name="myFrame" style="height: 100%; width: 100%; border: none"></iframe>
 
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

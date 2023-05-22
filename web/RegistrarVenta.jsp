@@ -14,7 +14,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="bg-secondary">
         <div class="d-flex">
             <div class="col-lg-5 parte01">
                 <div class="card">
@@ -75,7 +75,7 @@
                             <input readonly="" type="text" name="numeroserie" value="${nserie}" class="form-control">
                         </div>
                         <br>
-                        <table class="table table-hover">
+                        <table class="table table-striped table-dark">
                             <thead>
                                 <tr>
                                     <th>N°</th>

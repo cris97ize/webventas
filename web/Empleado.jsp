@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
         <title>JSP Page</title>
     </head>
-    <body>
+    <body class="bg-secondary">
         <div class="d-flex">                    
             <div class="card col-sm-4">
                 <div class="card-body">
-                    <form action="Controlador?menu=Empleado" method="POST">
+                    
+                    <span class="border border-secondary">
+                        <form action="Controlador?menu=Empleado" method="POST">
                         <div class="form-group">
                             <label>Dni</label>
                             <input type="text" value="${empleado.getDni()}" name="txtDni" class="form-control">
@@ -35,10 +37,15 @@
                         <input type="submit" name="accion" value="Agregar" class="btn btn-info">
                         <input type="submit" name="accion" value="Actualizar" class="btn btn-success">
                     </form>
+                    </span>
+                    
+                    
+                    
+                    
                 </div>            
             </div>
             <div class="col-sm-8">
-                <table class="table table-hover">
+                <table class="table table-striped table-dark">
                     <thead>
                         <tr>
                             <th>ID</th>
